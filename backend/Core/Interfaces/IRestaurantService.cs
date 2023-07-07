@@ -9,5 +9,6 @@ namespace Core.Interfaces
     public interface IRestaurantService
     {
         Task<Restaurant> AddRestaurantAsync(Restaurant restaurant);
+        Task<Restaurant> GetRestaurantByID(Restaurant restaurant);
     }
 }
